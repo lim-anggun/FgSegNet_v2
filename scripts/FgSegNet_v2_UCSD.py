@@ -171,8 +171,8 @@ if not os.path.exists(main_mdl_dir):
 for scene in dataset:
     print ('Training ->>> ' + scene)
     
-    train_dir = os.path.join('..', 'UCSD_train' + str(num_split), scene)
-    dataset_dir = os.path.join('..', 'UCSD_dataset', scene + '_', scene)
+    train_dir = os.path.join('..', 'training_sets', 'UCSD_train' + str(num_split), scene)
+    dataset_dir = os.path.join('..', 'datasets', 'UCSD_dataset', scene + '_', scene)
     
     mdl_path = os.path.join(main_mdl_dir, 'mdl_' + scene + '.h5')
     

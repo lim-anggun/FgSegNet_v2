@@ -191,8 +191,8 @@ for category, scene_list in dataset.items():
     for scene in scene_list:
         print ('Training ->>> ' + category + ' / ' + scene)
         
-        train_dir = os.path.join('..', 'CDnet2014_train', category, scene + str(num_frames))
-        dataset_dir = os.path.join('..', 'CDnet2014_dataset', category, scene)
+        train_dir = os.path.join('..', 'training_sets', 'CDnet2014_train', category, scene + str(num_frames))
+        dataset_dir = os.path.join('..', 'datasets', 'CDnet2014_dataset', category, scene)
         data = getData(train_dir, dataset_dir)
         
         mdl_path = os.path.join(mdl_dir, 'mdl_' + scene + '.h5')

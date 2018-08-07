@@ -195,8 +195,8 @@ if not os.path.exists(main_mdl_dir):
 for scene in dataset:
     print ('Training ->>> ' + scene)
     
-    train_dir = os.path.join('..', 'SBI2015_train', scene)
-    dataset_dir = os.path.join('..', 'SBI2015_dataset', scene, 'input')
+    train_dir = os.path.join('..', 'training_sets', 'SBI2015_train', scene)
+    dataset_dir = os.path.join('..', 'datasets', 'SBI2015_dataset', scene, 'input')
 
     mdl_path = os.path.join(main_mdl_dir, 'mdl_' + scene + '.h5')
 
