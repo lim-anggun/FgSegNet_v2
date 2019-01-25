@@ -4,7 +4,7 @@ This repository contains source codes and training sets for the following paper:
 ***["Learning Multi-scale Features for Foreground Segmentation."](https://arxiv.org/abs/1808.01477) by Long Ang LIM and Hacer YALIM KELES*** <br /><br />
 The preprint version is available at: https://arxiv.org/abs/1808.01477 <br/><br/>
 
-![alt tag](fgsegnet_v2.jpg "FgSegNet_v2 Network Architecture")
+![alt tag](fgsegnet_v2.png "FgSegNet_v2 Network Architecture")
 <br/>
 
 ## Citation
@@ -34,22 +34,22 @@ This work was implemented with the following frameworks:
     Example:
 
     ```
-      FgSegNet_v2/
-           scripts/FgSegNet_v2_CDnet.py
-                   /FgSegNet_v2_SBI.py
-                   /FgSegNet_v2_UCSD.py
-                   /FgSegNet_v2_module.py
-									 /instance_normalization.py
-									 /my_upsampling_2d.py
-					 datasets/
-					 				 /CDnet2014_dataset/...
-					 				 /SBI2015_dataset/...
-									 /UCSD_dataset/...
-					 training_sets/
-					 				 /CDnet2014_train/...
-					 				 /SBI2015_train/...
-									 /UCSD_train20/...
-									 /UCSD_train50/...
+     FgSegNet_v2/
+          scripts/FgSegNet_v2_CDnet.py
+                 /FgSegNet_v2_SBI.py
+                 /FgSegNet_v2_UCSD.py
+                 /FgSegNet_v2_module.py
+                 /instance_normalization.py
+                 /my_upsampling_2d.py
+          datasets/
+                  /CDnet2014_dataset/...
+                  /SBI2015_dataset/...
+                  /UCSD_dataset/...
+          training_sets/
+                       /CDnet2014_train/...
+                       /SBI2015_train/...
+                       /UCSD_train20/...
+                       /UCSD_train50/...
     ```
 
 3. Run the codes with **Spyder IDE**. Note that all trained models will be automatically saved (in current working directory) for you.
