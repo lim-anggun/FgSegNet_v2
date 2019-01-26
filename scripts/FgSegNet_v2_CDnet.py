@@ -48,8 +48,8 @@ def getData(train_dir, dataset_dir):
     void_label = -1. # non-ROI
     
     # given ground-truths, load inputs  
-    Y_list = sorted(glob.glob(os.path.join(train_dir, '*.png')))
-    X_list= sorted(glob.glob(os.path.join(dataset_dir, 'input','*.jpg')))
+    Y_list = glob.glob(os.path.join(train_dir, '*.png'))
+    X_list= glob.glob(os.path.join(dataset_dir, 'input','*.jpg'))
     
     if len(Y_list)<=0 or len(X_list)<=0:
         raise ValueError('System cannot find the dataset path or ground-truth path. Please give the correct path.')
@@ -71,6 +71,10 @@ def getData(train_dir, dataset_dir):
     if len(X_list)!=len(Y_list):
         raise ValueError('The number of X_list and Y_list must be equal.')
         
+    # X must be corresponded to Y
+    X_list = sorted(X_list)
+    Y_list = sorted(Y_list)
+    
     # load training data
     X = []
     Y = []
