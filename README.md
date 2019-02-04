@@ -41,6 +41,7 @@ This work was implemented with the following frameworks:
                  /FgSegNet_v2_module.py
                  /instance_normalization.py
                  /my_upsampling_2d.py
+		     /prediction_example.ipynb
           datasets/
                   /CDnet2014_dataset/...
                   /SBI2015_dataset/...
@@ -79,10 +80,18 @@ Table below shows overall *test results* across 18 video sequences.
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | FgSegNet_v2  | 0.6136 | 0.8945 | 0.4405 | 0.9203 |
 
+### YouTube
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=5yc1JNHIa5o
+" target="_blank"><img src="http://img.youtube.com/vi/5yc1JNHIa5o/0.jpg" 
+alt="FgSegNet_v2 Video" width="500" height="330" border="10" /></a>
+
+
 ## Updates
 **07/08/2018:**
 - add FgSegNet_v2 source codes and training frames
 
+**04/02/2019:**
+- add a jupyter notebook & a YouTube video
 ## Contact
 lim.longang at gmail.com <br/>
 Any issues/discussions are welcome.
