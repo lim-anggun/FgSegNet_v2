@@ -1,0 +1,39 @@
+﻿Build started 27.11.2017 12:35:35.
+     1>Project "D:\longang\deconv\NoBoundary\python c++ stats\c++ code\VS10\Comparator\Comparator.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Comparator.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating "Release\Comparator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\cv231\opencv\build\include /IC:\cv231\opencv\build\include\opencv /IC:\cv231\opencv\build\include\opencv2 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Comparator.cpp ..\..\main.cpp ..\..\VideoFolder.cpp
+         Comparator.cpp
+     1>C:\cv231\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\cv231\opencv\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+         main.cpp
+     1>c:\cv231\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\cv231\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\cv231\opencv\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+         VideoFolder.cpp
+     1>c:\cv231\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\cv231\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\cv231\opencv\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\exe\Comparator.exe" /NOLOGO /LIBPATH:C:\cv231\opencv\build\x86\vc10\lib opencv_core231.lib opencv_highgui231.lib opencv_imgproc231.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Comparator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\longang\deconv\NoBoundary\python c++ stats\exe\Comparator.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\exe\Comparator.lib" /MACHINE:X86 Release\Comparator.obj
+         Release\main.obj
+         Release\VideoFolder.obj
+         Generating code
+         Finished generating code
+         Comparator.vcxproj -> D:\longang\deconv\NoBoundary\python c++ stats\c++ code\VS10\Comparator\..\..\..\exe\Comparator.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\exe\Comparator.exe;#1" /manifest Release\Comparator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Comparator.unsuccessfulbuild".
+         Touching "Release\Comparator.lastbuildstate".
+     1>Done Building Project "D:\longang\deconv\NoBoundary\python c++ stats\c++ code\VS10\Comparator\Comparator.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.97
