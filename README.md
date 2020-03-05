@@ -3,12 +3,18 @@
 This repository contains source codes and training sets for the following paper:<br /><br />
 ***["Learning multi-scale features for foreground segmentation."](https://doi.org/10.1007/s10044-019-00845-9) by Long Ang LIM and Hacer YALIM KELES*** <br /><br />
 
-Published at [Pattern Analysis and Applications](https://doi.org/10.1007/s10044-019-00845-9)
+- #### Published at [Pattern Analysis and Applications](https://doi.org/10.1007/s10044-019-00845-9)
 
-The preprint version is available at: https://arxiv.org/abs/1808.01477 <br/><br/>
+- The preprint version is available at: https://arxiv.org/abs/1808.01477 <br/><br/>
 
 ![alt tag](fgsegnet_v2.png "FgSegNet_v2 Network Architecture")
 <br/>
+<br/>
+
+![alt tag](fgsegnet_comparison.jpg "FgSegNet Family Comparison")
+<br/>
+<br/>
+
 
 ## Citation
 If you find FgSegNet_v2 useful in your research, please consider citing: <br />
